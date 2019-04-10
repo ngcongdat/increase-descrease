@@ -1,0 +1,10 @@
+.App .header {
+  height: 90px;
+  background: rgb(54, 174, 255);
+  background: radial-gradient(
+    circle,
+    rgba(54, 174, 255, 1) 0%,
+    rgba(9, 156, 255, 1) 50%,
+    rgba(54, 174, 255, 1) 100%
+  );
+}
