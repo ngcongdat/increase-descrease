@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
 .App .header {
   height: 90px;
   background: rgb(54, 174, 255);
@@ -7,4 +9,26 @@
     rgba(9, 156, 255, 1) 50%,
     rgba(54, 174, 255, 1) 100%
   );
+  font-family: "Roboto Mono", monospace;
+  color: #fff;
+}
+
+.App .content {
+  height: 360px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.App .content p {
+  font-size: 2rem;
+}
+
+.content .circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid #eee;
+}
+
+.content .hidden {
+  visibility: hidden;
 }

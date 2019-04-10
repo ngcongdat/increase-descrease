@@ -3,7 +3,7 @@ import "./App.css";
 
 import Circle from "./components/Circle";
 
-import "antd/dist/antd.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {
